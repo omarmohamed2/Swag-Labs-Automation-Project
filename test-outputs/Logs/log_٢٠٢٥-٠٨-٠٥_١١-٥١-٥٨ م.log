@@ -1,0 +1,73 @@
+[INFO] 05-08-2025 23:51:58 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
+[INFO] 05-08-2025 23:51:59 [main] [Tests.TestBase.setup(TestBase.java:19)] - Page is redirected to the URL
+[INFO] 05-08-2025 23:52:00 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : validLoginTCstarted
+[INFO] 05-08-2025 23:52:01 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:16)] - Test case : validLoginTCpassed successfully
+[INFO] 05-08-2025 23:52:07 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
+[INFO] 05-08-2025 23:52:09 [main] [Tests.TestBase.setup(TestBase.java:19)] - Page is redirected to the URL
+[INFO] 05-08-2025 23:52:09 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : CheckingNumberOfSelectedProductsTCstarted
+[INFO] 05-08-2025 23:52:10 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:47)] - number of all products:6
+[INFO] 05-08-2025 23:52:11 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:57)] - number of products on cart: 6
+[INFO] 05-08-2025 23:52:11 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:68)] - selected products : 6
+[INFO] 05-08-2025 23:52:11 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:16)] - Test case : CheckingNumberOfSelectedProductsTCpassed successfully
+[INFO] 05-08-2025 23:52:17 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
+[INFO] 05-08-2025 23:52:23 [main] [Tests.TestBase.setup(TestBase.java:19)] - Page is redirected to the URL
+[INFO] 05-08-2025 23:52:23 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : addingRndomProductsToCartTCstarted
+[ERROR] 05-08-2025 23:52:34 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:60)] - Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for ٥ second(s) with ٥٠٠ milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56837}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\OMAREL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56837/devtoo..., se:cdpVersion: 138.0.3351.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae3120d4c0b4dc57a7ca0431ab344e6e
+[INFO] 05-08-2025 23:52:44 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:68)] - selected products : 0
+[INFO] 05-08-2025 23:52:44 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:16)] - Test case : addingRndomProductsToCartTCpassed successfully
+[INFO] 05-08-2025 23:52:48 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
+[INFO] 05-08-2025 23:52:53 [main] [Tests.TestBase.setup(TestBase.java:19)] - Page is redirected to the URL
+[INFO] 05-08-2025 23:52:53 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : comparingPricesTCstarted
+[INFO] 05-08-2025 23:52:54 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:79)] - randomNumber2
+[INFO] 05-08-2025 23:52:54 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:79)] - randomNumber6
+[INFO] 05-08-2025 23:52:54 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:107)] - Total Price 0.0
+[INFO] 05-08-2025 23:52:54 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:107)] - Total Price 9.99
+[INFO] 05-08-2025 23:52:54 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:110)] - Total Price 25.98
+[INFO] 05-08-2025 23:52:54 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:35)] - Total Price 0.0
+[INFO] 05-08-2025 23:52:55 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:35)] - Total Price 9.99
+[INFO] 05-08-2025 23:52:55 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:38)] - Total Price 25.98
+[INFO] 05-08-2025 23:52:55 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:16)] - Test case : comparingPricesTCpassed successfully
+[INFO] 05-08-2025 23:52:59 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
+[INFO] 05-08-2025 23:53:18 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:40)] - Test case setup failed
+[ERROR] 05-08-2025 23:53:22 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:52)] - Exception while taking screenshots: no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=138.0.3351.121)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [35bcff2dbff61b25258de299a59fab15, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57022}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\OMAREL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57022/devtoo..., se:cdpVersion: 138.0.3351.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35bcff2dbff61b25258de299a59fab15
+[INFO] 05-08-2025 23:53:22 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : checkoutStepOneTCstarted
+[INFO] 05-08-2025 23:53:22 [main] [Listeners.ITestResultsListenerClass.onTestSkipped(ITestResultsListenerClass.java:21)] - Test case : checkoutStepOneTCskipped
+[INFO] 05-08-2025 23:53:25 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
+[INFO] 05-08-2025 23:53:27 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:40)] - Test case setup failed
+[ERROR] 05-08-2025 23:53:28 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:52)] - Exception while taking screenshots: no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=138.0.3351.121)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [37c10549f12feb29e0bcdeaa7e51cd6a, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57095}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\OMAREL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57095/devtoo..., se:cdpVersion: 138.0.3351.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37c10549f12feb29e0bcdeaa7e51cd6a
+[INFO] 05-08-2025 23:53:28 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : checkoutStepTwoTCstarted
+[INFO] 05-08-2025 23:53:28 [main] [Listeners.ITestResultsListenerClass.onTestSkipped(ITestResultsListenerClass.java:21)] - Test case : checkoutStepTwoTCskipped
+[INFO] 05-08-2025 23:53:33 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
+[INFO] 05-08-2025 23:53:35 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:40)] - Test case setup failed
+[ERROR] 05-08-2025 23:53:36 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:52)] - Exception while taking screenshots: no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=138.0.3351.121)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fd572f125d1d2b3e1662873b6fff1ca8, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.121, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57165}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\OMAREL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57165/devtoo..., se:cdpVersion: 138.0.3351.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd572f125d1d2b3e1662873b6fff1ca8
+[INFO] 05-08-2025 23:53:36 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : FinishOrderTCstarted
+[INFO] 05-08-2025 23:53:36 [main] [Listeners.ITestResultsListenerClass.onTestSkipped(ITestResultsListenerClass.java:21)] - Test case : FinishOrderTCskipped
