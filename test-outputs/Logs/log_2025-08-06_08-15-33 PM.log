@@ -1,4 +1,0 @@
-[INFO] 06-08-2025 20:15:33 [main] [Tests.TestBase.setup(TestBase.java:17)] - Edge driver is opened
-[INFO] 06-08-2025 20:15:35 [main] [Tests.TestBase.setup(TestBase.java:19)] - Page is redirected to the URL
-[INFO] 06-08-2025 20:15:35 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:11)] - Test case : validLoginTCstarted
-[INFO] 06-08-2025 20:15:36 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:16)] - Test case : validLoginTCpassed successfully
